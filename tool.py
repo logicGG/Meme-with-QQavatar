@@ -652,7 +652,7 @@ class DrawTool:
 
 
 def test():
-    testQQNum = 2150631695
+    testQQNum = 1262017215
 
     # 格式应为：丢[@QQ号] 或者 丢QQ号
     # 其中的 "丢" 表示要画 "丢" 这张图，可以换成其他指令
