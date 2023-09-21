@@ -11,7 +11,7 @@ tool = MemeTool()
 
 @app.route('/meme/<play>/<qq>', methods=['GET'])
 def getMeme(play, qq):
-    resultPath = tool.drawNeed(qq)
+    resultPath = tool.getDraw(play,qq)
     return send_file(resultPath)
 
 
